@@ -2,5 +2,13 @@
 name = "vgpu"
 version = "0.1.0"
 authors = ["Spencer Imbleau <spencer@imbleau.com>"]
+edition = "2018"
+description = "An interactive, hardware-accelerated vector graphics engine written in Rust."
+readme = "README.md"
+repository = "https://github.com/simbleau/vgpu/"
+license = "LGPL-2.1 License"
+license-file = "LICENSE"
+keywords = ["vector", "graphics", "gfx", "gpu", "api", "engine", "physics", "input"]
+categories = ["graphics", "rendering"]
 
 [dependencies]
