@@ -1,6 +1,6 @@
 [package]
-name="vgpu"
-version="0.1.0"
-authors="Spencer Imbleau <spencer@imbleau.com>"
+name = "vgpu"
+version = "0.1.0"
+authors = ["Spencer Imbleau <spencer@imbleau.com>"]
 
 [dependencies]
