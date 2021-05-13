@@ -11,4 +11,6 @@ license-file = "LICENSE"
 keywords = ["vector", "graphics", "gfx", "gpu", "api", "engine", "physics", "input"]
 categories = ["graphics", "rendering"]
 
+[lib]
+
 [dependencies]
