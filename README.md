@@ -9,9 +9,9 @@ An interactive, hardware-accelerated vector graphics engine written in rust.
 
 # Motivation
 
-The goal is to provide an efficient, interactive SVG-compliant path rendering library and prove its usefulness in the wider graphic programming ecosystem through benchmarking. This project is heavily research focused, and will bench conventional against bleeding-edge rendering approaches to show a general timeline of performance over time. For now think of this library as a way to visually simulate complex paths for use in an interactive application.
+The goal is to provide an efficient, interactive, SVG-compliant path rendering library and prove its usefulness in the graphic programming ecosystem through benchmarking. This project is heavily research focused and will bench conventional against bleeding-edge vector rendering approaches to graph a history of performance. For now think of this library as a way to efficiently render complex paths for use in an interactive application.
 
-The intent is for this library to be used in future physical simulations and research to visualize palpable paths with infinitessimally precise continuous collision detection.
+The intent is for this library to be used in future interactive physical simulations and visualize palpable paths with infinitessimally precise continuous collision detection.
 
 # Sections
 
