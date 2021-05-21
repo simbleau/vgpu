@@ -9,7 +9,7 @@ An interactive, hardware-accelerated vector graphics engine written in rust.
 
 # Motivation
 
-The goal is to prototype an interactive simulation engine using a leading GPU path rendering library. This project is hoping to prove GPU vector graphics' usefulness in the graphic programming ecosystem. It servers to do this through through benchmarking and demos. This project is heavily research focused and will bench conventional against bleeding-edge vector rendering approaches to graph a history of performance. For now think of this library as a way to efficiently render complex paths for use in an interactive application.
+The goal is to prototype an interactive simulation engine using a leading GPU path rendering library. This project is hoping to prove GPU vector graphics' usefulness in the graphic programming ecosystem through means of benchmarking and demos. This project is heavily research focused and will bench conventional against bleeding-edge vector rendering approaches to graph a history of performance. For now think of this library as a way to efficiently render complex paths for use in an interactive application.
 
 The intent is for this library to be trailblaze for future interactive physical simulations using paths with infinitessimally precise continuous collision detection.
 
