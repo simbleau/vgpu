@@ -5,13 +5,13 @@
 [![Build Status](https://travis-ci.com/simbleau/vgpu.svg?branch=main)](https://travis-ci.com/simbleau/vgpu) 
 [![GitHub license](https://img.shields.io/github/license/simbleau/vgpu)](https://github.com/simbleau/vgpu/blob/main/LICENSE)
 
-An interactive, hardware-accelerated vector graphics engine written in rust.
+An interactive, hardware-accelerated vector graphics simulation engine written in rust.
 
 # Motivation
 
-The goal is to prototype an interactive simulation engine using a leading GPU path rendering library. This project is hoping to prove GPU vector graphics' usefulness in the graphic programming ecosystem through means of benchmarking and demos. This project is heavily research focused and will bench conventional against bleeding-edge vector rendering approaches to graph a history of performance. For now think of this library as a way to efficiently render complex paths for use in an interactive application.
+The goal is to prototype an interactive simulation engine using a leading GPU path rendering library. This project is hoping to prove GPU vector graphics' usefulness in the graphic programming ecosystem through means of benchmarking and demos. This project is dependent on the research in [vgpu-bench](https://github.com/simbleau/vgpu-bench) to complete before proceeding with a logical renderer.
 
-The intent is for this library to be trailblaze for future interactive physical simulations using paths with infinitessimally precise continuous collision detection.
+The intent is for this engine library to be capable of interactive physical simulations using paths with infinitessimally precise continuous collision detection.
 
 # Sections
 
@@ -23,13 +23,13 @@ The intent is for this library to be trailblaze for future interactive physical 
 
 ## State
 
-vgpu is in stalled development. It will be developed after research has been completed in benchmarking. Currently this is in research phase as all code is still in flux. New releases will have breaking changes.
+vgpu is in stalled development. It will be developed after research has been completed in [vgpu-bench](https://github.com/simbleau/vgpu-bench).
 
 ## FAQ
 
-### In a nutshell, what is a renderer?
+### In a nutshell, what is an interactive simulation engine?
 
-Renderers provide a graphic API abstraction to the user wherein users make calls to draw elements on a frame buffer in a window.
+An interactive simulation engine provides an API abstraction to digest input which will be rendered in real-time to visualize a simulation.
 
 ### What is left to do before vgpu 1.0?
 
